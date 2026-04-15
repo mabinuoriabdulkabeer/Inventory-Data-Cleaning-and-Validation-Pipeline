@@ -23,7 +23,7 @@
 ---
 
 ### Error Breakdown
-![Error Breakdown]([screenshots/error_breakdown.png](https://github.com/mabinuoriabdulkabeer/Inventory-Data-Cleaning-and-Validation-Pipeline/blob/main/Error%20Reason.png))
+![Error Breakdown](https://github.com/mabinuoriabdulkabeer/Inventory-Data-Cleaning-and-Validation-Pipeline/blob/main/Error%20Reason.png)
 > *Distribution of error types across the 2,000-row dataset.*
 
 ---
