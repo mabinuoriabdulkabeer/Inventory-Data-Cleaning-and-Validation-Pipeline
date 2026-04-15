@@ -9,20 +9,21 @@
 ### Raw vs Clean Data
 | Before | After |
 |--------|-------|
-| ![Raw Dataset](screenshots/raw_data.png) | ![Clean Dataset](screenshots/clean_data.png) |
+| ![Raw Dataset](https://github.com/mabinuoriabdulkabeer/Inventory-Data-Cleaning-and-Validation-Pipeline/blob/main/Raw%20Dataset.png) | ![Clean Dataset](https://github.com/mabinuoriabdulkabeer/Inventory-Data-Cleaning-and-Validation-Pipeline/blob/main/Cleaned%20Data.png) |
 
 > *Left: Raw merchant data as received. Right: Validated, system-ready output.*
 
 ---
 
-### Power Query Applied Steps
-![Power Query Steps](screenshots/power_query_steps.png)
-> *Every transformation recorded as a reproducible step in Power Query's Applied Steps panel.*
+### Error Table
+
+> *Sneakpeak of what the error table looks like with validation columns.*
+![Error TAble](https://github.com/mabinuoriabdulkabeer/Inventory-Data-Cleaning-and-Validation-Pipeline/blob/main/Error%20Table.png)
 
 ---
 
 ### Error Breakdown
-![Error Breakdown](screenshots/error_breakdown.png)
+![Error Breakdown]([screenshots/error_breakdown.png](https://github.com/mabinuoriabdulkabeer/Inventory-Data-Cleaning-and-Validation-Pipeline/blob/main/Error%20Reason.png))
 > *Distribution of error types across the 2,000-row dataset.*
 
 ---
@@ -290,24 +291,6 @@ If implemented in a real system, this approach would:
 |------|-------|
 | Microsoft Excel | Data inspection and output formatting |
 | Power Query (M language) | Transformation, standardisation, and validation pipeline |
-
----
-
-## 📁 Repository Structure
-
-```
-├── README.md                            ← This file
-├── data/
-│   ├── retail_inventory_raw.xlsx        ← Original messy dataset
-│   └── retail_inventory_clean.xlsx      ← Validated, system-ready output
-├── screenshots/
-│   ├── raw_data.png                     ← Raw dataset screenshot
-│   ├── clean_data.png                   ← Clean dataset screenshot
-│   ├── power_query_steps.png            ← Applied Steps panel screenshot
-│   └── error_breakdown.png             ← Error distribution chart screenshot
-```
-
-> **How to add your screenshots:** Take screenshots directly from Excel and Power Query, save them into a `screenshots/` folder in this repository, and the images above will render automatically on GitHub.
 
 ---
 
